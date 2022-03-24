@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+    background-color: #eee;
+}
+
+.container {
+    padding-top: 200px;
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.ui-element {
+    padding: 20px;
+    border: 2px solid #C37602;
+    font-size: 16px;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.box-for-notes {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
